@@ -1,4 +1,8 @@
-# JMM_BoolEval
+# Boolean Expression Evaluator
+Final implementation is in rec_solver.
+I've gone through many attempts and implementations but in the end I've landed
+at a recursive regex based parser implemented in rust. The implementation supports equations with up to 128 variable
+as the program uses i128 for efficient and quick lookup of boolean values. 
 
 A boolean equation evaluator. 
 
@@ -13,8 +17,4 @@ So given the number 6 it should print
 .
 .
 .
-
-I want to try to implement this in rust, but rust forces me to use AST and interpret, or jit compilation. 
-I could also try c++ and just manage my own pointers allowing for the entire eval to happen within string
-If I want to be lazy I should be able to make this in python relatively fast, but python will be very slow.
 
