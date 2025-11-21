@@ -11,10 +11,11 @@ A boolean equation evaluator.
 For this equation it should print out a table of all possibilities using a=1 and b=0 as fixed values and test all the other ones
 It should also be able to print a simple table for n variables.
 So given the number 6 it should print 
-0 | 0 | 0 | 0 | 0 | 0
-0 | 0 | 0 | 0 | 0 | 1
-0 | 0 | 0 | 0 | 1 | 0
-.
-.
-.
+
+0 | 0 | 0 | 0 | 0 | 0\
+0 | 0 | 0 | 0 | 0 | 1\
+0 | 0 | 0 | 0 | 1 | 0\
+.\
+.\
+.\
 
